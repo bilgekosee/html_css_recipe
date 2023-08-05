@@ -1,0 +1,80 @@
+img {
+    display:block;
+    
+    margin: 0 auto 0 auto;
+    
+    border-radius: 101px;
+    width: 550px;
+    height: 600px;
+    
+}
+.button{
+    border-radius: 3px;
+    background-color: #8D313C;
+    color: white;
+    
+    margin: 10px;
+    width: 90px;
+    height: 45px;
+}
+.button2{
+    display: inline-block;
+    margin-left: 1550px;
+    
+    border-radius: 3px;
+    background-color: #8D313C;
+    color: white;
+    width: 90px;
+    height: 45px;
+
+}
+
+.button3 {
+    margin-left: 20px;
+    border-radius: 3px;
+    background-color: #8D313C;
+    color: white;
+    width: 90px;
+    height: 45px;
+
+}
+.h1{
+    
+    font-size:45px;
+    color: #650000;
+    font-family: 'Pacifico';
+}
+.h2 {
+   
+    font-size: 35px;
+    color: #650000;
+    font-family:'Open Sans';
+}
+.Instructions {
+    
+    font-size: 35px;
+    color: #650000;
+    font-family:'Open Sans';
+}
+ul,ol  {
+    
+    color: black;
+    font-size: 35px;
+    font-family:'Open Sans';
+}
+li {
+    
+    color: black;
+    font-size: 35px;
+    font-family:'Open Sans';
+
+}
+.set{
+    border: 5px dotted  #8D313C;
+    padding: 20PX;
+    border-radius: 15px;
+}
+
+.title{
+    text-align: center;
+}

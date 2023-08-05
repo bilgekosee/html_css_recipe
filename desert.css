@@ -1,0 +1,9 @@
+.dessert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 101px;
+    width: 550px;
+    height: 600px;
+    
+}

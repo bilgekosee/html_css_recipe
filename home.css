@@ -1,0 +1,205 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home,.about,.blog,.recipes,.contact{
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: justify;
+    font-family: 'Pacifico';
+    padding: 30px;
+}
+header {
+    
+    position:relative;
+    top: -15px;
+    right: 15px;
+    width: 100vw;
+    height: 340px;
+    background:url(1.gif) no-repeat center/cover;
+    
+}
+label {
+    position: relative;
+    top: 15%;
+    
+}
+.title{
+    color: #650000;
+    font-family: 'Pacifico';
+    font-size:80px ;
+    text-align: center;
+
+}
+#description p {
+    top: 35px;
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    color: #650000;
+    font-family: 'Pacifico';
+}
+img{
+    width:350px;
+    height: 350px;
+    border-radius: 50%; 
+    overflow: hidden;
+    padding: 80px;
+    opacity: 0.8;
+   
+    transition: .5s ease;
+    backface-visibility: hidden;
+   
+} 
+a {
+    text-decoration: none;
+}
+
+img:hover{
+    opacity: 0.5;
+
+}
+
+
+
+#baverage {
+    position: relative;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 50px;
+    color: #BA0900;
+    right:380px;
+    top: -250px;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.2s;
+}
+#food{
+    position: relative;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 50px;
+    color: #BA0900;
+    right:340px;
+    top: -250px;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.2s;
+}
+#dessert {
+    position: relative;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 50px;
+    color: #BA0900;
+    left:1530px; 
+    top: -300px;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.2s;
+}
+
+.border{
+    border: 5px dotted  #8D313C;
+    padding: 20PX;
+    border-radius: 15px;
+    
+}
+.legend{
+    text-align: center ;
+    font-size: 50px;
+    color: #650000;
+    font-family: 'Pacifico';
+}
+#health {
+    font-size: 35px;
+    color: #BA0900;
+    font-family:'Open Sans';
+}
+h1 {
+    font-size: 24px;
+    color: #BA675E;
+    font-family:'Open Sans';
+}
+h2 {
+    font-size: 20px;
+    color: #BA675E;
+    font-family:'Open Sans';
+}
+p {
+    font-size: 16px;
+    font-family:'Open Sans';
+}
+.paragraph {
+    margin-bottom: 20px;
+    font-family:'Open Sans';
+}
+.sub-heading {
+    font-weight: bold;
+    margin-top: 15px;
+    font-family:'Open Sans';
+}
+footer{
+    background:url(2.gif) no-repeat center/cover;
+    position:relative;
+    top: 5px;
+    right: 15px;
+    width: 100vw;
+    height: 190px;
+    padding: 0.5px;
+    
+}
+.contant{
+    text-align: center;
+    font-family:'Pacifico' ;
+    font-size: 35px;
+    color: #ffffff;
+}
+.phone{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family:'Open Sans' ;
+    background-color: #ba675e5b;
+    border-radius: 5px;
+}
+.email {
+    display: inline-block;
+    margin-left: 250px;
+    padding: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family:'Open Sans' ;
+    background-color: #ba675e5b;
+    border-radius: 5px;
+}
+.fax {
+    display: inline-block;
+    margin-left: 250px;
+    padding: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family:'Open Sans' ;
+    background-color: #ba675e5b;
+    border-radius: 5px;
+}
+
+.adress {
+    display: inline-block;
+    margin-left: 250px;
+    padding: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family:'Open Sans' ;
+    background-color: #ba675e5b;
+    border-radius: 5px;
+}
+.footer-text {
+    position: relative;
+    bottom: 165px;
+    left: 1600px;
+    color: #ffffff;
+    font-size: 15px;
+}
