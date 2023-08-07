@@ -39,7 +39,7 @@ Check out the live demo of WiseRecipe: [WiseRecipe Live Demo](https://wiserecipe
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/recipe.git`
+1. Clone the repository: `git clone https://github.com/your-username/html_css_recipe.git`
 2. Navigate to the project directory: `cd recipe`
 3. Open `home.html` in your preferred web browser.
 
