@@ -1,5 +1,7 @@
 # RECIPE WEB PAGE
-# WiseRecipe Website
+## WiseRecipe Website
+
+![Screenshot 2023-08-07 121626](https://github.com/bilgekosee/html_css_recipe/assets/76417507/2bc1f24c-bb98-4f3c-9b80-7d452c4e02b1)
 
 WiseRecipe is a website that offers a collection of delicious and creative recipes. You can explore a wide range of recipes from various cuisines, and find cooking tips and tricks to enhance your culinary skills.
 
