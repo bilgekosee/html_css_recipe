@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       href="https://fonts.googleapis.com/css?family=Pacifico"
       rel="stylesheet"
@@ -33,10 +34,20 @@
       </p></label
     ><br />
 
-    <a href="beverage.html" target="_blank" id="baverages"><img src="beverage.jpg" /></a><b><span id="baverage">Beverage</span> </b>
-    <a href="food.html" target="_blank"><img src="food.jpg" id="fimg"/></a><b><span id="food">Food</span> </b>
-    <a href="dessert.html" target="_blank"><img src="dessert.jpg" /></a><b><span id="dessert">Dessert</span> </b>
-    
+    <div class="link-container" id="baverages">
+      <a href="beverage.html"  class="link">
+        <img src="beverage.jpg" />
+        <span class="link-text">Beverage</span>
+      </a>
+      <a href="food.html"  class="link">
+        <img src="food.jpg" />
+        <span class="link-text">Food</span>
+      </a>
+      <a href="dessert.html"  class="link">
+        <img src="dessert.jpg" />
+        <span class="link-text">Dessert</span>
+      </a>
+    </div>
     
     
     
@@ -76,14 +87,15 @@
     </fieldset>
     <br/><br/>
 
-
-    <footer id="footer">
-      <h1 class="contant">Contact Information</h1>
-      <h2 class="phone">Phone: (+90) 123 564 88</h2>
-      <h2 class="email">Email: WiseRepice@gmail.com </h2>
-      <h2 class="fax">Fax: 1 - 235 - 658 - 0000 </h2>
-      <h2 class="adress">Adress: 1234 Tasty Street, No:5, Sweetville, Mersin, Turkey</h2>
-      <p class="footer-text">&#10084;This page was created by Bilge Köşe&#10084;</p>
+    <footer id="footer" class="footers">
+      <div class="contant">Contact Information</div>
+      <div class="contact-details">
+        <div class="phone">Phone: (+90) 123 564 88</div>
+        <div class="email">Email: WiseRepice@gmail.com</div>
+        <div class="fax">Fax: 1 - 235 - 658 - 0000</div>
+        <div class="adress">Adress: 1234 Tasty Street, Mersin, Turkey</div>
+      </div>
+      <div class="footer-text">&#10084;This page was created by Bilge Köşe&#10084;</div>
     </footer>
 
     

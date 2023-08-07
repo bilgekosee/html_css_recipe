@@ -6,15 +6,6 @@ html {
 body{
     overflow-x: hidden;
 }
-
-.home,.about,.blog,.recipes,.contact{
-    cursor: pointer;
-    color: #ffffff;
-    font-size: 50px;
-    text-align: justify;
-    font-family: 'Pacifico';
-    padding: 30px;
-}
 header {
     
     position:relative;
@@ -25,6 +16,15 @@ header {
     background:url(1.gif) no-repeat center/cover;
     
 }
+.home,.about,.blog,.recipes,.contact{
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: justify;
+    font-family: 'Pacifico';
+    padding: 30px;
+}
+
 label {
     position: relative;
     top: 15%;
@@ -50,7 +50,8 @@ img{
     height: 350px;
     border-radius: 50%; 
     overflow: hidden;
-    padding: 80px;
+    padding: 35px;
+    margin: 20px;
     opacity: 0.8;
    
     transition: .5s ease;
@@ -68,39 +69,38 @@ img:hover{
 
 
 
-#baverage {
+.link-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
+  }
+  
+  .link {
     position: relative;
-    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    margin: 10px;
     cursor: pointer;
-    font-size: 50px;
-    color: #BA0900;
-    right:380px;
-    top: -250px;
-    transform: translate(-50%, -50%);
     transition: opacity 0.2s;
-}
-#food{
-    position: relative;
-    margin-left: 20px;
-    cursor: pointer;
-    font-size: 50px;
+  }
+  
+  .link img {
+    max-width: 100%;
+    border-radius: 50%; 
+    
+  }
+  
+  .link-text {
+    font-size: 24px;
     color: #BA0900;
-    right:340px;
-    top: -250px;
-    transform: translate(-50%, -50%);
+    margin-top: 10px;
     transition: opacity 0.2s;
-}
-#dessert {
-    position: relative;
-    margin-left: 20px;
-    cursor: pointer;
-    font-size: 50px;
-    color: #BA0900;
-    left:1530px; 
-    top: -300px;
-    transform: translate(-50%, -50%);
-    transition: opacity 0.2s;
-}
+  }
+  
 
 .border{
     border: 5px dotted  #8D313C;
@@ -142,67 +142,60 @@ p {
     margin-top: 15px;
     font-family:'Open Sans';
 }
-footer{
-    background:url(2.gif) no-repeat center/cover;
-    position:relative;
+footer {
+    background: url(2.gif) no-repeat center/cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     top: 5px;
     right: 15px;
-    width: 100vw;
-    height: 190px;
-    padding: 0.5px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
     
-}
-.contant{
+  }
+  
+  .contant {
     text-align: center;
-    font-family:'Pacifico' ;
-    font-size: 35px;
+    font-family: 'Pacifico';
+    font-size: 24px;
     color: #ffffff;
-}
-.phone{
-    display: inline-block;
-    padding: 10px;
-    margin-left: 30px;
-    font-size: 15px;
-    color: #ffffff;
-    font-family:'Open Sans' ;
-    background-color: #ba675e5b;
-    border-radius: 5px;
-}
-.email {
-    display: inline-block;
-    margin-left: 250px;
-    padding: 10px;
-    font-size: 15px;
-    color: #ffffff;
-    font-family:'Open Sans' ;
-    background-color: #ba675e5b;
-    border-radius: 5px;
-}
-.fax {
-    display: inline-block;
-    margin-left: 250px;
-    padding: 10px;
-    font-size: 15px;
-    color: #ffffff;
-    font-family:'Open Sans' ;
-    background-color: #ba675e5b;
-    border-radius: 5px;
-}
+    margin: 10px 0;
+  }
+ 
+  .contact-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
 
-.adress {
-    display: inline-block;
-    margin-left: 250px;
+  
+  .phone,
+  .email,
+  .fax,
+  .adress {
+    flex: 1;
+    box-sizing: border-box;
+    text-align: center;
     padding: 10px;
     font-size: 15px;
     color: #ffffff;
-    font-family:'Open Sans' ;
+    font-family: 'Open Sans';
     background-color: #ba675e5b;
     border-radius: 5px;
-}
-.footer-text {
-    position: relative;
-    bottom: 165px;
-    left: 1600px;
-    color: #ffffff;
-    font-size: 15px;
-}
+    margin: 5px;
+    
+    
+  }
+  
+  .footer-text {
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Pacifico';
+    color: #650000;
+  }
+  
