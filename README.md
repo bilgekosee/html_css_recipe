@@ -16,7 +16,6 @@ WiseRecipe is a website that offers a collection of delicious and creative recip
 
 - HTML5
 - CSS3
-- JavaScript
 
 ## Live Demo
 
@@ -24,8 +23,19 @@ Check out the live demo of WiseRecipe: [WiseRecipe Live Demo](https://wiserecipe
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 2023-08-07 124124](https://github.com/bilgekosee/html_css_recipe/assets/76417507/0589fcf0-d5ac-4083-aa22-f6e03e7348b5)
+
+
+![Screenshot 2023-08-07 124141](https://github.com/bilgekosee/html_css_recipe/assets/76417507/914d184d-e116-48ae-8bfb-9bd37593bb4b)
+
+
+![Screenshot 2023-08-07 123920](https://github.com/bilgekosee/html_css_recipe/assets/76417507/52bf96ff-2255-47d1-933b-92fe1c42d842)
+
+
+![Screenshot 2023-08-07 124001](https://github.com/bilgekosee/html_css_recipe/assets/76417507/1c42990e-6b08-4260-aaf5-c3067269a9d3)
+
+![Screenshot 2023-08-07 124152](https://github.com/bilgekosee/html_css_recipe/assets/76417507/cc65278a-c8eb-4d88-8dc0-454878562781)
+
 
 ## Installation
 
